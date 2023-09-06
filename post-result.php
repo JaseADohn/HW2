@@ -10,14 +10,9 @@ include "view-footer.php";
 function getDisplay(){
       
 if (isset($_POST['my-name'])) {
-?>
- <p>the value sent is: </p>
-<?php
-  echo $_POST['my-name'];
+return "<p>Te value ent is:</p>". $_POST['my-name'];
 }else {
-?>
-      <p>Nothing posted to the page</p>
-<?php
+return "<p>Nothing posted to the page.</p>";
 }
       
 }
