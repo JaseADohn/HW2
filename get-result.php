@@ -7,7 +7,7 @@ include "view-header.php";
 if (isset($_GET['my-name'])) {
 ?>
  <p>the value sent is: </p>
-<$php
+<?php
   echo $_GET['my-name'];
 }else {
 ?>
