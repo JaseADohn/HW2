@@ -2,7 +2,7 @@
 $pageTitle = "Get result";
 include "view-header.php";
 ?>
-      <h1>Post result</h1>
+      <h1>Get result</h1>
 <?php
 if (isset($_GET['my-name'])) {
 ?>
