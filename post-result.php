@@ -3,7 +3,12 @@ $pageTitle = "Post result";
 include "view-header.php";
 ?>
       <h1>Post result</h1>
-<?php
+<?PHP
+echo getDisplay();
+include "view-footer.php";
+
+function getDisplay(){
+      
 if (isset($_POST['my-name'])) {
 ?>
  <p>the value sent is: </p>
@@ -14,5 +19,6 @@ if (isset($_POST['my-name'])) {
       <p>Nothing posted to the page</p>
 <?php
 }
-include "view-footer.php";
+      
+}
 ?>
